@@ -15,6 +15,6 @@ public class RegistrationController {
         UserDto user = new UserDto();
         model.addAttribute("user", user);
 
-        return "registration";
+        return "register";
     }
 }
